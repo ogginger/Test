@@ -10,9 +10,11 @@
     paths: {
 	"underscore": "lib/underscore.min",
 	"Setup": "lib/setup.min",
-	"Assertion": "lib/assertion.min"
+	"Assertion": "lib/assertion.min",
+	"Debug": "lib/debug.min",
+	"log": "lib/log.min"
     },
-    exclude: [ "underscore" ],
+    exclude: [ "underscore", "log" ],
     name: "Test",
     out: "test.min.js"
 })
