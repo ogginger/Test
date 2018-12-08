@@ -3,11 +3,15 @@
 define([
 	"Setup",
 	"Assertion",
-	"Debug"
+	"Debug",
+	"log",
+	"Action"
 ], function(
 	Setup,
 	Assertion,
-	Debug
+	Debug,
+	log,
+	Action
 ) {
   return function( Input ) {
 	return {
@@ -16,7 +20,7 @@ define([
 			//Setup
 			Input.Input = Setup( Input.Input );
 			//Action
-			Input.Result = Input.Function( Input.Input );
+			Input.Result = Action( Input );
 			//Debug
 			Debug( Input );
 			//Assertion
