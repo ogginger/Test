@@ -12,9 +12,11 @@
 	"Setup": "lib/setup.min",
 	"Assertion": "lib/assertion.min",
 	"Debug": "lib/debug.min",
-	"log": "lib/log.min"
+	"log": "lib/log.min",
+	"Action": "lib/action.min",
+	"bIsObjectEqual": "lib/is_object_equal.min"
     },
-    exclude: [ "underscore", "log" ],
+    exclude: [ "underscore", "log", "bIsObjectEqual" ],
     name: "Test",
     out: "test.min.js"
 })
