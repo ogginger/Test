@@ -14,7 +14,8 @@
 	"Debug": "lib/debug.min",
 	"log": "lib/log.min",
 	"Action": "lib/action.min",
-	"bIsObjectEqual": "lib/is_object_equal.min"
+	"bIsObjectEqual": "lib/is_object_equal.min",
+	"validate": "lib/validate.min"
     },
     exclude: [ "underscore", "log", "bIsObjectEqual" ],
     name: "Test",
